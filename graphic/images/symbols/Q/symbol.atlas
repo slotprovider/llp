@@ -1,0 +1,53 @@
+symbol.png
+size:1024,256
+filter:Linear,Linear
+pma:true
+blur
+bounds:2,59,173,182
+offsets:2,1,176,185
+q
+bounds:177,87,154,183
+offsets:1,1,157,185
+rotate:90
+vfx/Slash Radial_1
+bounds:293,21,55,64
+offsets:113,46,200,200
+vfx/Slash Radial_10
+bounds:909,121,99,120
+offsets:48,33,200,200
+vfx/Slash Radial_11
+bounds:902,28,91,115
+offsets:55,38,200,200
+rotate:90
+vfx/Slash Radial_12
+bounds:2,14,83,43
+offsets:59,43,200,200
+vfx/Slash Radial_2
+bounds:177,2,83,114
+offsets:87,55,200,200
+rotate:90
+vfx/Slash Radial_3
+bounds:770,35,130,98
+offsets:38,77,200,200
+vfx/Slash Radial_4
+bounds:493,104,133,137
+offsets:33,39,200,200
+vfx/Slash Radial_5
+bounds:362,94,129,147
+offsets:33,29,200,200
+vfx/Slash Radial_6
+bounds:628,119,122,140
+offsets:33,29,200,200
+rotate:90
+vfx/Slash Radial_7
+bounds:770,135,106,137
+offsets:40,28,200,200
+rotate:90
+vfx/Slash Radial_8
+bounds:628,18,99,127
+offsets:43,29,200,200
+rotate:90
+vfx/Slash Radial_9
+bounds:493,4,98,124
+offsets:46,30,200,200
+rotate:90

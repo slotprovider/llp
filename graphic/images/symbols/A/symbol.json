@@ -1,0 +1,273 @@
+{
+"skeleton": {
+	"hash": "A4//3sPshgQ",
+	"spine": "4.1.24",
+	"x": -82.5,
+	"y": -90.5,
+	"width": 165,
+	"height": 183,
+	"images": "./Images/",
+	"audio": "D:/Thushal/Temp/New Works/Domenicod88/Project_5/symbols/10/Spine/Images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Main", "parent": "root" },
+	{ "name": "Main2", "parent": "Main", "x": -0.98, "y": 1.7, "color": "ff0000ff" },
+	{
+		"name": "vfx/Slash Radial_1",
+		"parent": "Main",
+		"rotation": 61.14,
+		"x": -5.79,
+		"y": -20.45,
+		"scaleX": 0.8103,
+		"scaleY": 1.5029
+	},
+	{
+		"name": "vfx/Slash Radial_2",
+		"parent": "Main",
+		"rotation": 61.14,
+		"x": -5.79,
+		"y": 18.62,
+		"scaleX": 0.8103,
+		"scaleY": 1.5029
+	}
+],
+"slots": [
+	{ "name": "A", "bone": "Main2", "attachment": "A" },
+	{ "name": "blur", "bone": "Main2", "attachment": "blur" },
+	{ "name": "blur2", "bone": "Main2", "color": "ffffffa7", "attachment": "blur", "blend": "additive" },
+	{ "name": "vfx/Slash Radial_1", "bone": "vfx/Slash Radial_1", "color": "8c0000ff", "blend": "additive" },
+	{ "name": "vfx/Slash Radial_3", "bone": "vfx/Slash Radial_1", "color": "8c0000ff", "blend": "additive" },
+	{ "name": "vfx/Slash Radial_2", "bone": "vfx/Slash Radial_2", "color": "ff3700ff", "blend": "additive" },
+	{ "name": "vfx/Slash Radial_4", "bone": "vfx/Slash Radial_2", "color": "ff3700ff", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"A": {
+				"A": { "x": 0.98, "y": -0.7, "width": 145, "height": 183 }
+			},
+			"blur": {
+				"blur": { "x": 0.98, "y": -0.7, "width": 165, "height": 183 }
+			},
+			"blur2": {
+				"blur": { "x": 0.98, "y": -0.7, "width": 165, "height": 183 }
+			},
+			"vfx/Slash Radial_1": {
+				"vfx/Slash Radial_1": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_2": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_3": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_4": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_5": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_6": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_7": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_8": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_9": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_10": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_11": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_12": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 }
+			},
+			"vfx/Slash Radial_2": {
+				"vfx/Slash Radial_1": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_2": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_3": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_4": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_5": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_6": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_7": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_8": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_9": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_10": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_11": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_12": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 }
+			},
+			"vfx/Slash Radial_3": {
+				"vfx/Slash Radial_1": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_2": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_3": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_4": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_5": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_6": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_7": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_8": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_9": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_10": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_11": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_12": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 }
+			},
+			"vfx/Slash Radial_4": {
+				"vfx/Slash Radial_1": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_2": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_3": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_4": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_5": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_6": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_7": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_8": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_9": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_10": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_11": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 },
+				"vfx/Slash Radial_12": { "x": -2.79, "y": -2.79, "width": 200, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"A": {
+				"rgba": [
+					{
+						"time": 0.4667,
+						"color": "ffffffff",
+						"curve": [ 0.511, 1, 0.556, 1, 0.511, 1, 0.556, 1, 0.511, 1, 0.556, 1, 0.511, 0.67, 0.556, 0 ]
+					},
+					{ "time": 0.6, "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.8667,
+						"color": "ffffff00",
+						"curve": [ 0.911, 1, 0.956, 1, 0.911, 1, 0.956, 1, 0.911, 1, 0.956, 1, 0.911, 0, 0.956, 0.67 ]
+					},
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"blur": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.4667,
+						"color": "ffffff00",
+						"curve": [ 0.511, 1, 0.556, 1, 0.511, 1, 0.556, 1, 0.511, 1, 0.556, 1, 0.511, 0.33, 0.556, 1 ]
+					},
+					{ "time": 0.6, "color": "fffffffe", "curve": "stepped" },
+					{
+						"time": 0.8667,
+						"color": "fffffffe",
+						"curve": [ 0.911, 1, 0.956, 1, 0.911, 1, 0.956, 1, 0.911, 1, 0.956, 1, 0.911, 1, 0.956, 0.33 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"blur2": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{
+						"time": 0.4667,
+						"color": "ffffff00",
+						"curve": [ 0.511, 1, 0.556, 1, 0.511, 1, 0.556, 1, 0.511, 1, 0.556, 1, 0.511, 0.33, 0.556, 0.53 ]
+					},
+					{ "time": 0.6, "color": "ffffff86", "curve": "stepped" },
+					{
+						"time": 0.8667,
+						"color": "ffffff86",
+						"curve": [ 0.956, 1, 0.956, 1, 0.956, 1, 0.956, 1, 0.956, 1, 0.956, 1, 0.956, 0.53, 0.956, 0.33 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"vfx/Slash Radial_1": {
+				"attachment": [
+					{ "time": 0.4333, "name": "vfx/Slash Radial_1" },
+					{ "time": 0.4667, "name": "vfx/Slash Radial_2" },
+					{ "time": 0.5, "name": "vfx/Slash Radial_3" },
+					{ "time": 0.5333, "name": "vfx/Slash Radial_4" },
+					{ "time": 0.5667, "name": "vfx/Slash Radial_5" },
+					{ "time": 0.6, "name": "vfx/Slash Radial_6" },
+					{ "time": 0.6333, "name": "vfx/Slash Radial_7" },
+					{ "time": 0.6667, "name": "vfx/Slash Radial_8" },
+					{ "time": 0.7, "name": "vfx/Slash Radial_9" },
+					{ "time": 0.7333, "name": "vfx/Slash Radial_10" },
+					{ "time": 0.7667, "name": "vfx/Slash Radial_11" },
+					{ "time": 0.8, "name": "vfx/Slash Radial_12" },
+					{ "time": 0.8333 }
+				]
+			},
+			"vfx/Slash Radial_2": {
+				"attachment": [
+					{ "time": 0.6333, "name": "vfx/Slash Radial_1" },
+					{ "time": 0.6667, "name": "vfx/Slash Radial_2" },
+					{ "time": 0.7, "name": "vfx/Slash Radial_3" },
+					{ "time": 0.7333, "name": "vfx/Slash Radial_4" },
+					{ "time": 0.7667, "name": "vfx/Slash Radial_5" },
+					{ "time": 0.8, "name": "vfx/Slash Radial_6" },
+					{ "time": 0.8333, "name": "vfx/Slash Radial_7" },
+					{ "time": 0.8667, "name": "vfx/Slash Radial_8" },
+					{ "time": 0.9, "name": "vfx/Slash Radial_9" },
+					{ "time": 0.9333, "name": "vfx/Slash Radial_10" },
+					{ "time": 0.9667, "name": "vfx/Slash Radial_11" },
+					{ "time": 1, "name": "vfx/Slash Radial_12" },
+					{ "time": 1.0333 }
+				]
+			},
+			"vfx/Slash Radial_3": {
+				"attachment": [
+					{ "time": 0.3333, "name": "vfx/Slash Radial_1" },
+					{ "time": 0.3667, "name": "vfx/Slash Radial_2" },
+					{ "time": 0.4, "name": "vfx/Slash Radial_3" },
+					{ "time": 0.4333, "name": "vfx/Slash Radial_4" },
+					{ "time": 0.4667, "name": "vfx/Slash Radial_5" },
+					{ "time": 0.5, "name": "vfx/Slash Radial_6" },
+					{ "time": 0.5333, "name": "vfx/Slash Radial_7" },
+					{ "time": 0.5667, "name": "vfx/Slash Radial_8" },
+					{ "time": 0.6, "name": "vfx/Slash Radial_9" },
+					{ "time": 0.6333, "name": "vfx/Slash Radial_10" },
+					{ "time": 0.6667, "name": "vfx/Slash Radial_11" },
+					{ "time": 0.7, "name": "vfx/Slash Radial_12" },
+					{ "time": 0.7333 }
+				]
+			},
+			"vfx/Slash Radial_4": {
+				"attachment": [
+					{ "time": 0.5, "name": "vfx/Slash Radial_1" },
+					{ "time": 0.5333, "name": "vfx/Slash Radial_2" },
+					{ "time": 0.5667, "name": "vfx/Slash Radial_3" },
+					{ "time": 0.6, "name": "vfx/Slash Radial_4" },
+					{ "time": 0.6333, "name": "vfx/Slash Radial_5" },
+					{ "time": 0.6667, "name": "vfx/Slash Radial_6" },
+					{ "time": 0.7, "name": "vfx/Slash Radial_7" },
+					{ "time": 0.7333, "name": "vfx/Slash Radial_8" },
+					{ "time": 0.7667, "name": "vfx/Slash Radial_9" },
+					{ "time": 0.8, "name": "vfx/Slash Radial_10" },
+					{ "time": 0.8333, "name": "vfx/Slash Radial_11" },
+					{ "time": 0.8667, "name": "vfx/Slash Radial_12" },
+					{ "time": 0.9 }
+				]
+			}
+		},
+		"bones": {
+			"Main": {
+				"scale": [
+					{
+						"curve": [ 0.013, 0.927, 0.284, 0.696, 0.013, 0.927, 0.284, 0.696 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 0.696,
+						"y": 0.696,
+						"curve": [ 0.408, 0.696, 0.496, 1.032, 0.408, 0.696, 0.496, 1.032 ]
+					},
+					{ "time": 0.5, "x": 1.074, "y": 1.074 },
+					{
+						"time": 0.9667,
+						"x": 1.218,
+						"y": 1.218,
+						"curve": [ 1.05, 1.218, 1.117, 0.937, 1.05, 1.218, 1.117, 0.937 ]
+					},
+					{ "time": 1.2, "x": 0.937, "y": 0.937 },
+					{ "time": 1.5 }
+				]
+			},
+			"Main2": {
+				"scale": [
+					{ "time": 0.4667 },
+					{ "time": 0.6, "x": 0.1 },
+					{ "time": 0.7333 },
+					{ "time": 0.8667, "x": 0.1 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

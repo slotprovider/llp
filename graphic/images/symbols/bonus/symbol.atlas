@@ -1,0 +1,14 @@
+symbol.png
+size:512,256
+filter:Linear,Linear
+pma:true
+frame
+bounds:2,6,184,182
+offsets:1,1,186,184
+hand
+bounds:188,13,168,175
+offsets:1,1,170,177
+text
+bounds:358,2,186,69
+offsets:1,1,188,71
+rotate:90
